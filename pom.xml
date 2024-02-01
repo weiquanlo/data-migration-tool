@@ -15,33 +15,25 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+        <!-- JPA API -->
         <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.15</version>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+            <version>2.2.3</version>
         </dependency>
+        <!-- Hibernate ORM -->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.8.1</version>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.30.Final</version> <!-- Ensure compatibility with Java 11 -->
         </dependency>
+        <!-- MS SQL Server JDBC Driver -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>9.2.1.jre11</version>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.10.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.ibaguice</groupId>
-            <artifactId>ibaguice-core</artifactId>
-            <version>1.0</version>
-        </dependency>
+
     </dependencies>
 
 

@@ -5,9 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c885dcb4-0588-4d79-9533-dd2d9b5ce749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MigrationTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/CmdExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/JpaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/ParallelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/entity/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/model/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/processor/InsertPassengerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/task/ParallelTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/util/CmdRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/migration/util/JpaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/CreateTable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertAircraft.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertAirline.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertCity.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertConstants.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertFlight.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertItinerary.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertItineraryInvoice.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertMeal.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertPassenger.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertRoute.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertTicket.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/InsertData/InsertTicketMeal.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Optimizations/VerticalPartitioning-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Optimizations/VerticalPartitioningTest-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Queries/Member1-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Queries/Member2-YapYaoJin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Queries/Member3-NeikJiJiet.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/SqlRunner.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/StoredProcedures/ArchiveFlight-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/StoredProcedures/ArchiveFlightTest-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/StoredProcedures/CancelTicket-NeikJiJiet.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/StoredProcedures/ChangeTicket-YapYaoJin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Triggers/TriggerCheckPassengerPerBooking-NeikJiJiet.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Triggers/TriggerConstantsValueCheck-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Triggers/TriggerConstantsValueCheckTest-LoWeiQuan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Triggers/TriggerFlightTimeCheck-YapYaoJin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/Triggers/TriggerFlightTimeCheckTest-YapYaoJin.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MigrationTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyBatisScriptUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test_a.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +62,38 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="weiquan" />
+                    <option name="lastUsedInstant" value="1706761784" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1706761783" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,6 +108,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/WenYao/Desktop/data-migration-tool",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -48,6 +120,57 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\WenYao\Desktop\data-migration-tool\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.migration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CmdExample">
+    <configuration name="CmdExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.migration.CmdExample" />
+      <module name="data-migration-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.migration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.migration.util.CmdRunner" />
+      <module name="data-migration-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.migration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.migration.JpaExample" />
+      <module name="data-migration-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.migration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CmdExample" />
+        <item itemvalue="Application.JpaExample" />
+        <item itemvalue="Application.CmdRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
